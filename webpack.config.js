@@ -4,7 +4,7 @@ var outputFile =  'language-tags.js';
 
 var config = {
   entry: __dirname + '/lib/index.js',
-  mode: 'development',
+  mode: 'production',
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: outputFile,
